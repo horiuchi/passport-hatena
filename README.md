@@ -1,9 +1,7 @@
 # Passport-Hatena
 ===============
 
-OAuth1.0a npm package for [Hatena](http://www.hatena.ne.jp/)
-
-[Passport](http://passportjs.org/) strategy for authenticating with [YConnect](http://developer.yahoo.co.jp/yconnect/) using the OAuth 2.0 API
+[Passport](http://passportjs.org/) strategy for authenticating with [Hatena](http://www.hatena.ne.jp/) using the OAuth 1.0a API
 
 This module can be used with passport in Node.js.
 You can integrate into below applications or frameworks.
@@ -55,7 +53,7 @@ application:
 
 ## Examples
 
-For a complete, working example, refer to the [login example](https://github.com/jaredhanson/passport-tumblr/tree/master/examples/login).
+For a complete, working example, refer to the [login example](https://github.com/horiuchi/passport-hatena/tree/master/examples/login).
 
 ### License
 

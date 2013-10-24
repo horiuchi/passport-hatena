@@ -1,6 +1,6 @@
 {
   "name": "passport-hatena",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hatena authentication strategy for passport.",
   "keywords": ["passport", "hatena", "auth", "authn", "authentication", "identity"],
   "repository": {
