@@ -1,0 +1,34 @@
+{
+  "name": "passport-hatena",
+  "version": "0.0.1",
+  "description": "Hatena authentication strategy for passport.",
+  "keywords": ["passport", "hatena", "auth", "authn", "authentication", "identity"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/horiuchi/passport-hatena.git"
+  },
+  "bugs": {
+    "url": "http://github.com/horiuchi/passport-hatena/issues"
+  },
+  "author": {
+    "name": "Hiroki Horiuchi",
+    "email": "horiuchi.g@gmail.com",
+    "url": "http://www.hatena.ne.jp/Horiuchi_H/"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "./lib/passport-hatena",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.4.0" }
+}
