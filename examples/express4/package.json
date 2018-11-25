@@ -1,0 +1,22 @@
+{
+  "name": "passport-hatena-examples-express4",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "cookie-parser": "1.4.3",
+    "ejs": "2.6.1",
+    "express": "4.16.4",
+    "express-session": "1.15.6",
+    "method-override": "3.0.0",
+    "morgan": "1.9.1",
+    "passport": "0.4.0",
+    "passport-hatena": "0.0.2"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
