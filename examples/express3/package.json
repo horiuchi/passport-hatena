@@ -1,0 +1,17 @@
+{
+  "name": "passport-hatena-examples-express3",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "2.6.1",
+    "express": "3.21.2",
+    "passport": "0.4.0",
+    "passport-hatena": "0.0.2"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}

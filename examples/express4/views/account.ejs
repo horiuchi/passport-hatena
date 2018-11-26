@@ -1,0 +1,24 @@
+<table>
+  <tr>
+    <th>provider</th>
+    <td><%= user.provider %></td>
+  </tr>
+  <tr>
+    <th>id</th>
+    <td><%= user.id %></td>
+  </tr>
+  <tr>
+    <th>displayName</th>
+    <td><%= user.displayName %></td>
+  </tr>
+  <tr>
+    <th>photos[0].value</th>
+    <td><p><%= user.photos[0].value %></p></td>
+  </tr>
+  <tr>
+    <th></th>
+    <td><img src="<%= user.photos[0].value %>" /></td>
+  </tr>
+</table>
+
+<p><a href="/">Index</a></p>
